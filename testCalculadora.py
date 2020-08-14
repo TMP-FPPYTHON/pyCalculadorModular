@@ -23,7 +23,7 @@ def pausa():
 # Suma de dos numeros -----------------------------------------------------
 
 def suma():
-    os.system("cls")
+    os.system("clear")
     print("SUMA DE DOS NUMEROS")
     print("===================")
     a = float(input("A:"))
@@ -36,7 +36,7 @@ def suma():
 # Resta de dos numeros -----------------------------------------------------
 
 def resta():
-    os.system("cls")
+    os.system("clear")
     print("RESTA DE DOS NUMEROS")
     print("====================")
     a = float(input("A:"))
@@ -49,7 +49,7 @@ def resta():
 # Multiplicacion dos numeros ------------------------------------------------
 
 def multiplica():
-    os.system("cls")
+    os.system("clear")
     print("MULTIPLICACION DE DOS NUMEROS")
     print("=============================")
     a = float(input("A:"))
@@ -62,7 +62,7 @@ def multiplica():
 # División dos numeros ------------------------------------------------
 
 def divide():
-    os.system("cls")
+    os.system("clear")
     print("DIVISIÓN DE DOS NUMEROS")
     print("=======================")
     a = float(input("A:"))
@@ -75,7 +75,7 @@ def divide():
 # Menu principal ----------------------------------------------------------
 
 def menu():
-    os.system("cls")
+    os.system("clear")
     print("CALCULADORA ARITMETICA")
     print("======================")
     print("1->Sumar")
@@ -102,5 +102,5 @@ if __name__ == "__main__":
         elif opcion == "4":
             divide()
         
-    os.system("cls")
+    os.system("clear")
     print("Fin de la calculadora...")
